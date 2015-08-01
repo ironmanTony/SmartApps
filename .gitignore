@@ -9,7 +9,5 @@
 gradle/
 gradlew
 gradlew.bat
-settings.gradle
 gradle.properties
-*iml
 */build/
