@@ -2,4 +2,4 @@
 
 ------------
 ## light
-a very convnient lihgt that can be opened by press power button for 3 times;
+a very convnient light that can be opened by press power button for 3 times;
