@@ -15,7 +15,6 @@ import java.util.List;
  */
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
-    private Context context;
     private List<Content> dataSet;
 
     public MainAdapter(List<Content> dataSet) {
@@ -36,7 +35,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         if (dataSet != null && dataSet.size() > i) {
             Content content = dataSet.get(i);
             if (content != null) {
-                viewHolder.ivMain.setImageDrawable(context.getResources().getDrawable(R.drawable.my_girl));
                 viewHolder.tvTitle.setText(content.title);
                 viewHolder.tvContent.setText(content.content);
             }

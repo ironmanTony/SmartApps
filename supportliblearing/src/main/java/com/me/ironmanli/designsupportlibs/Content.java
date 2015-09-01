@@ -7,4 +7,9 @@ public class Content {
     public String imgUrl;
     public String title;
     public String content;
+
+    public Content(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
