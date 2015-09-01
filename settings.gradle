@@ -1,1 +1,1 @@
-include ':light'
+include ':light', ':supportliblearing', ':excel2wiki'
